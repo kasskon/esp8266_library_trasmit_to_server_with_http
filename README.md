@@ -17,8 +17,8 @@
 
   transmit_to_server(IPAddress IP ,int port);
   void transmit(String arg,String data);
-	void change_ip(IPAddress new_ip);
-	void change_port(int new_port);
+  void change_ip(IPAddress new_ip);
+  void change_port(int new_port);
   void connect_to_server();
   void server_commands(String url);
   
